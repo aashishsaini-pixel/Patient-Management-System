@@ -22,9 +22,6 @@ public class Patient {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
 
-    @Version
-    private Integer version;
-
     @NotNull
     private String name;
 

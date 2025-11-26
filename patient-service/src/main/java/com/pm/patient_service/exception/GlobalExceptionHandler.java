@@ -40,4 +40,13 @@ public class GlobalExceptionHandler {
         error.put("email", ex.getMessage());
         return new ResponseEntity<>(error , HttpStatus.BAD_REQUEST);
     }
+
+
+    @ExceptionHandler(PatientNotFoundException.class)
+    public ResponseEntity<Map<String , String>> handlePatientNotFoundException(PatientNotFoundException ex) {
+        Map<String , String> error = new HashMap<>();
+        error.put("error", ex.getMessage());
+        error.put("error code:" , ex.getErrorCode());
+        return new ResponseEntity<>(error , ex.getStatus());
+    }
 }

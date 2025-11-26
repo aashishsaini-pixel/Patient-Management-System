@@ -7,7 +7,6 @@ import lombok.Setter;
 @Setter
 public class PatientResponseDTO {
   private String id;
-  private Integer version;
   private String name;
   private String email;
   private String address;
