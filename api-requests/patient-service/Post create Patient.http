@@ -4,9 +4,9 @@ POST http://localhost:4000/patients
 Content-Type: application/json
 
 {
-  "name": "YOYO HONEY SINGH",
-  "email": "SDFSDFSFSDF@gmail.com",
-  "address": "123 Masdfdsfin Street, New Delhi",
+  "name": "BROCK LESNER",
+  "email": "brocklest@gmail.com",
+  "address": "WWE WRESTLEMANIA",
   "dateOfBirth": "1995-08-15",
   "registeredDate": "2025-11-25"
 }
