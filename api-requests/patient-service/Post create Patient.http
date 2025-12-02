@@ -4,9 +4,9 @@ POST http://localhost:4000/patients
 Content-Type: application/json
 
 {
-  "name": "BROCK LESNER",
-  "email": "brocklest@gmail.com",
-  "address": "WWE WRESTLEMANIA",
+  "name": "TOM HARDY",
+  "email": "tomhardy@gmail.com",
+  "address": "Hollywood actor",
   "dateOfBirth": "1995-08-15",
   "registeredDate": "2025-11-25"
 }
